@@ -1,1 +1,44 @@
 # javabasics
+
+This project contains practice assignments for learning Java fundamentals, organized under the `com.sachin.basics` package. Below is a summary of the topics covered and the assignments completed for each.
+
+## 1. Control Flow
+This section focuses on conditional statements (`if`, `else`, `switch`) and loops (`for`, `while`, `do-while`, `break`, `continue`).
+
+### Assignments:
+- **a. NumberCheck**: Checks if a number is positive, negative, or zero using `if-else` statements.
+- **b. DayOfWeek**: Prints the day of the week (e.g., Monday) for a given number (1-7) using a `switch` statement.
+- **c. PrintNumbers**: Prints numbers from 1 to 10 using a `for` loop.
+- **d. Countdown**: Prints numbers from 10 to 1 using a `while` loop.
+- **e. SumUntilCondition**: Adds numbers starting from 1 until the sum exceeds 50, using a `do-while` loop and `break`.
+- **f. SkipOddNumbers**: Prints numbers from 1 to 20, skipping odd numbers using a `for` loop and `continue`.
+
+## 2. Methods
+This section focuses on defining methods, using parameters, return types, and method overloading.
+
+### Assignments:
+- **a. SquareCalculator**: Defines a method to calculate the square of a number and prints the result.
+- **b. Greeting**: Defines a `void` method to print a greeting message for a given name.
+- **c. AddNumbers**: Defines a method to add two numbers and return the sum.
+- **d. AreaCalculator**: Demonstrates method overloading by calculating the area of a square and a rectangle.
+- **e. EvenOddChecker**: Defines a method to check if a number is even, returning a boolean.
+- **f. MaxOfThree**: Defines a method to find the maximum of three numbers using conditionals.
+
+## 3. Classes and Objects
+This section focuses on creating classes, objects, constructors, and using the `this` keyword.
+
+### Assignments:
+- **a. Student**: Creates a `Student` class with name and age, a constructor, and a method to display details.
+- **b. Rectangle**: Creates a `Rectangle` class with length and width, a constructor, and a method to calculate area.
+- **c. Car**: Creates a `Car` class with brand and speed, a default constructor, and a method to display details.
+- **d. Book**: Creates a `Book` class with title and price, two constructors (one with default price), and a method to display details.
+- **e. Circle**: Creates a `Circle` class with radius, a constructor, and a method to calculate circumference.
+- **f. Person**: Creates a `Person` class with name and age, a constructor, and a method for the person to introduce themselves.
+
+---
+
+### How to Run
+- All classes are under the `com.myjava.basics` package in the `src` directory.
+- Open the project in IntelliJ IDEA or any IDE
+- Right-click on any class and select `Run <ClassName>` to see the output.
+- Modify the code as needed to experiment with different inputs or add new features.
