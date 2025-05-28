@@ -27,3 +27,11 @@ public class Student {
         student.displayDetails();
     }
 }
+
+/*
+Explanation:
+
+Defines a Student class with instance variables name and age.
+Uses a constructor to initialize the fields, with this to avoid naming conflicts.
+Creates an object and calls the displayDetails method.
+Practice Tip: Create another Student object with different values and call displayDetails.*/

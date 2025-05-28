@@ -39,3 +39,11 @@ public class DayOfWeek {
         }
     }
 }
+
+/*
+Explanation:
+
+Uses a switch statement to map numbers to days.
+The default case handles invalid inputs.
+break ensures the program exits the switch after a match.
+Practice Tip: Test with day = 8 to see the default case, or day = 1 for Monday.*/

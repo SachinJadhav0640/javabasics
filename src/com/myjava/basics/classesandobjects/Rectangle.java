@@ -42,3 +42,11 @@ public class Rectangle {
         rectangle.calculateArea();
     }
 }*/
+
+/*
+Explanation:
+
+Defines a Rectangle class with length and width fields.
+Uses a constructor to initialize the fields.
+Adds a method calculateArea to compute the area.
+Practice Tip: Create another Rectangle with different dimensions and print its area.*/

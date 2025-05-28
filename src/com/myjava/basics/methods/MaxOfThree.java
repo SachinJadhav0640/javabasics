@@ -22,3 +22,11 @@ public class MaxOfThree {
         }
     }
 }
+
+/*
+Explanation:
+
+Defines a method findMax that takes three parameters and returns the largest.
+Uses if-else statements (from Control Flow) to compare the numbers.
+Calls the method from main and prints the result.
+Practice Tip: Test with different sets of numbers (e.g., 5, 5, 5 or 3, 10, 2).*/

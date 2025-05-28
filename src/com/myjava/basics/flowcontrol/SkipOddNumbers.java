@@ -14,3 +14,11 @@ public class SkipOddNumbers {
         }
     }
 }
+
+/*
+Explanation:
+
+Uses a for loop to iterate from 1 to 20.
+        continue skips the rest of the loop body for odd numbers (i % 2 != 0).
+Only even numbers are printed.
+Practice Tip: Modify the program to skip even numbers instead and print only odd numbers.*/

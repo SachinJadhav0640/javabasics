@@ -29,3 +29,11 @@ public class Book {
         bookTitle.displayDetails();
     }
 }
+
+/*
+Explanation:
+
+Defines a Book class with two constructors (constructor overloading).
+Uses this to initialize fields.
+Tests both constructors by creating two objects.
+Practice Tip: Modify book2’s price after creation (e.g., book2.price = 15.99) and display again*/

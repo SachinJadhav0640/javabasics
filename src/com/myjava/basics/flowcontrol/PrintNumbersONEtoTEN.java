@@ -11,3 +11,10 @@ public class PrintNumbersONEtoTEN {
         }
     }
 }
+
+/*
+Explanation:
+
+Uses a for loop with a counter i starting at 1 and incrementing until 10.
+The loop runs a fixed number of times (10 iterations).
+Practice Tip: Modify the loop to print only even numbers (hint: use i += 2 or add an if condition).*/

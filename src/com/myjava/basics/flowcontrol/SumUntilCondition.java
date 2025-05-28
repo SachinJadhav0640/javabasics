@@ -21,3 +21,9 @@ public class SumUntilCondition {
         while (true);
     }
 }
+/*
+Explanation:
+
+Uses a do-while loop, which ensures at least one iteration.
+        break exits the loop when sum > 50.
+Practice Tip: Modify the condition to stop when the sum exceeds 100 and observe the new output.*/

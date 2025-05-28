@@ -21,3 +21,11 @@ public class AddNumbers {
         return (num1 + num2);
     }
 }
+
+/*
+Explanation:
+
+Defines a method add with two parameters and a return type (int).
+Returns the sum of the two numbers.
+Calls the method from main and prints the result.
+Practice Tip: Test with different pairs of numbers (e.g., 5 and 10, -2 and 3).*/

@@ -24,3 +24,11 @@ public class AreaCalculator {
         return length * width;
     }
 }
+
+/*
+Explanation:
+
+Demonstrates method overloading by defining two calculateArea methods with different parameter lists.
+The first method takes one parameter (for a square), the second takes two (for a rectangle).
+Calls both methods from main to show how overloading works.
+Practice Tip: Add a third overloaded method to calculate the area of a circle (use Math.PI and take a radius parameter).*/

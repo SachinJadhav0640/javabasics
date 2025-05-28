@@ -24,18 +24,18 @@ Problem: Create a Car class with fields for brand and speed. Add a default const
     }
 }*/
 
-public class car {
+public class Car {
     String brand;
     int speed;
 
     // Default Constructor
-    public car() {
+    public Car() {
         this.brand = "Toyota";
         this.speed = 160;
     }
 
     // Parameterized Constructor
-    public car(String brand, int speed) {
+    public Car(String brand, int speed) {
         this.brand = brand;
         this.speed = speed;
     }
@@ -46,11 +46,19 @@ public class car {
     }
 
     public static void main(String[] args) {
-        car defaultCar = new car();
+        Car defaultCar = new Car();
         defaultCar.displayDetails();
 
         // Creating another object with custom values
-        car customCar = new car("Honda", 180);
+        Car customCar = new Car("Honda", 180);
         customCar.displayDetails();
     }
 }
+
+/*
+Explanation:
+
+Defines a Car class with a default constructor that sets default values.
+Adds a method to display the car’s details.
+Creates an object using the default constructor.
+Practice Tip: Add a parameterized constructor to set custom values for brand and speed, then create another object.*/

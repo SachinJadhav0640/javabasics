@@ -18,3 +18,11 @@ public class Greeting {
         System.out.println("Hello, " + enteredName + "! How are you?");
     }
 }
+
+/*
+Explanation:
+
+Defines a void method printGreeting that takes a String parameter.
+The method performs an action (printing) but doesn’t return a value.
+Calls the method from main.
+Practice Tip: Call the method with different names (e.g., "Alice", "Bob") to see different greetings.*/

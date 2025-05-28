@@ -24,3 +24,9 @@ public class NumberCheck {
         /*scanner.close(); //it will help in reusing scanner*/
     }
 }
+/*
+Explanation:
+
+Uses if-else statements to check conditions.
+Tests a single condition at a time (number > 0, number < 0, or number == 0).
+Practice Tip: Try changing number to -5 or 0 and rerun to see different outputs.*/

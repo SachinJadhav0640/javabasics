@@ -24,3 +24,11 @@ public class squareCalculator {
         return num * num;
     }
 }
+
+/*
+Explanation:
+
+Defines a method calculateSquare that takes an int parameter and returns an int.
+Uses a return type (int) and the return statement.
+Calls the method from main and prints the result.
+Practice Tip: Call the method with different numbers (e.g., 10, -3) and print their squares.*/

@@ -12,3 +12,10 @@ public class CountDown {
         }
     }
 }
+
+/*
+Explanation:
+
+Uses a while loop, which continues as long as number >= 1.
+Decrements number in each iteration.
+Practice Tip: Try rewriting this using a for loop to see the difference.*/
