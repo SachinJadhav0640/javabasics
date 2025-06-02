@@ -1,4 +1,4 @@
-# javabasics
+# Java Basics Practice
 
 This project contains practice assignments for learning Java fundamentals, organized under the `com.sachin.basics` package. Below is a summary of the topics covered and the assignments completed for each.
 
@@ -35,10 +35,21 @@ This section focuses on creating classes, objects, constructors, and using the `
 - **e. Circle**: Creates a `Circle` class with radius, a constructor, and a method to calculate circumference.
 - **f. Person**: Creates a `Person` class with name and age, a constructor, and a method for the person to introduce themselves.
 
+## 4. Encapsulation
+This section focuses on hiding data using `private` fields, providing controlled access with getters and setters, and adding validation logic.
+
+### Assignments:
+- **a. PersonEncapsulated**: Creates a `PersonEncapsulated` class with private fields for name and age, a constructor, getters, and setters to access and modify the fields.
+- **b. BankAccount**: Creates a `BankAccount` class with private fields for account number and balance, getters, setters with validation to prevent negative balances, and tests the validation.
+- **c. BookEncapsulated**: Creates a `BookEncapsulated` class with private fields for title and price, makes title read-only (no setter), and includes getters and a setter for price.
+- **d. CarEncapsulated**: Creates a `CarEncapsulated` class with private fields for brand and speed, getters, setters with validation to ensure speed is between 0 and 200, and tests the validation.
+- **e. StudentEncapsulated**: Creates a `StudentEncapsulated` class with private fields for id and grade, getters, setters, and a method to display the student’s details.
+- **f. Product**: Creates a `Product` class with private fields for name and price, getters, setters with validation, and a method to apply a discount to the price with validation.
+
 ---
 
 ### How to Run
-- All classes are under the `com.myjava.basics` package in the `src` directory.
-- Open the project in IntelliJ IDEA or any IDE
+- All classes are under the `com.sachin.basics` package in the `src` directory.
+- Open the project in IntelliJ IDEA.
 - Right-click on any class and select `Run <ClassName>` to see the output.
 - Modify the code as needed to experiment with different inputs or add new features.

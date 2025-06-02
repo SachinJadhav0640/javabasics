@@ -53,3 +53,9 @@ public class Product {
         pc1.applyDiscount(10);
     }
 }
+/*
+Explanation:
+
+Encapsulates name and price with getters and setters.
+Adds a method applyDiscount that modifies the price with validation.
+Practice Tip: Add a method increasePrice to increase the price by a percentage.*/
