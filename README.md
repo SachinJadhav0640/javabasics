@@ -46,6 +46,16 @@ This section focuses on hiding data using `private` fields, providing controlled
 - **e. StudentEncapsulated**: Creates a `StudentEncapsulated` class with private fields for id and grade, getters, setters, and a method to display the student’s details.
 - **f. Product**: Creates a `Product` class with private fields for name and price, getters, setters with validation, and a method to apply a discount to the price with validation.
 
+## 5. Inheritance
+This section focuses on creating class hierarchies using the `extends` keyword, the `super` keyword, and method overriding.
+
+### Assignments:
+- **a. Vehicle and Car**: Creates a `Vehicle` class with a brand field and a `Car` class that inherits from it, adding a model field and overriding a method to display details.
+- **b. Animal and Dog**: Creates an `Animal` class with a sound method and a `Dog` class that inherits from it, overriding the method and using `super` to call the parent’s method.
+- **c. Person and Student**: Creates a `Person` class with name and age, and a `Student` class that inherits from it, adding a grade field and overriding a method to display details.
+- **d. Shape and Rectangle**: Creates a `Shape` class with a `calculateArea` method and a `Rectangle` class that inherits from it, overriding the method to compute the area.
+- **e. Animal, Mammal, and Cat**: Demonstrates multi-level inheritance with an `Animal` class, a `Mammal` class that inherits from it, and a `Cat` class that inherits from `Mammal`, overriding a method at each level.
+- **f. Employee and Manager**: Creates an `Employee` class with name and salary, and a `Manager` class that inherits from it, adding a department field and overriding a method to include a bonus in the pay.
 ---
 
 ### How to Run
