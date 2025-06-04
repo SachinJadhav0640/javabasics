@@ -56,6 +56,18 @@ This section focuses on creating class hierarchies using the `extends` keyword, 
 - **d. Shape and Rectangle**: Creates a `Shape` class with a `calculateArea` method and a `Rectangle` class that inherits from it, overriding the method to compute the area.
 - **e. Animal, Mammal, and Cat**: Demonstrates multi-level inheritance with an `Animal` class, a `Mammal` class that inherits from it, and a `Cat` class that inherits from `Mammal`, overriding a method at each level.
 - **f. Employee and Manager**: Creates an `Employee` class with name and salary, and a `Manager` class that inherits from it, adding a department field and overriding a method to include a bonus in the pay.
+
+## 5. Polymorphism
+This section focuses on runtime polymorphism, method overriding, and using parent class references to invoke child-specific behavior.
+
+### Assignments:
+- **a. AnimalSoundTest**: Creates an `Animal` class with `Dog` and `Cat` subclasses, using parent references to call the overridden `sound` method dynamically.
+- **b. ShapeAreaTest**: Creates a `Shape` class with `Circle` and `Rectangle` subclasses, using parent references to call the overridden `calculateArea` method.
+- **c. EmployeeSalaryTest**: Creates an `Employee` class with `FullTimeEmployee` and `PartTimeEmployee` subclasses, using an array of parent references to calculate salaries polymorphically.
+- **d. VehicleMovementTest**: Creates a `Vehicle` class with `Car` and `Bicycle` subclasses, using parent references to call the overridden `move` method.
+- **e. DrawingTest**: Creates a `Drawable` class with `Circle` and `Square` subclasses, using a method with a `Drawable` parameter to call the overridden `draw` method.
+- **f. ProductDiscountTest**: Creates a `Product` class with `Electronics` and `Clothing` subclasses, combining encapsulation and polymorphism to apply different discounts.
+
 ---
 
 ### How to Run
