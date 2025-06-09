@@ -78,6 +78,19 @@ This section focuses on defining and implementing interfaces using the `implemen
 - **d. DrivableTest**: Creates a `Drivable` interface with a drive method, implemented by `Car` and `Truck` classes, using interface references.
 - **e. LoggableTest**: Creates `Loggable` and `Auditable` interfaces with log and audit methods, implemented by `Transaction` class, demonstrating multiple interface implementation.
 - **f. RentableTest**: Creates a `Rentable` interface with rent and returnItem methods, implemented by `Bike` and `Scooter` classes, combining encapsulation and interfaces.
+
+## 8. Exception Handling
+This section focuses on handling errors using `try`, `catch`, `finally`, `throw`, `throws`, and creating custom exceptions for robust programs.
+
+### Assignments:
+- **a. DivideNumbersTest**: Handles `ArithmeticException` when dividing numbers, using try-catch to prevent division by zero.
+- **b. FileReaderTest**: Handles `IOException` when reading a file, using try-catch-finally to ensure resource cleanup.
+- **c. ArrayAccessTest**: Handles `ArrayIndexOutOfBoundsException` when accessing an array, using multiple catch blocks.
+- **d. NumberParserTest**: Handles `NumberFormatException` when parsing strings to integers, throwing a custom exception for invalid input.
+- **e. AgeValidatorTest**: Creates a custom `InvalidAgeException` and throws it for invalid ages, using try-catch to handle it.
+- **f. LibraryCheckoutTest**: Creates a custom `BookNotAvailableException` and handles it when borrowing books, combining encapsulation and exception handling.
+
+
 ---
 
 ### How to Run
