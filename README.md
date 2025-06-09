@@ -1,6 +1,6 @@
 # Java Basics Practice
 
-This project contains practice assignments for learning Java fundamentals, organized under the `com.sachin.basics` package. Below is a summary of the topics covered and the assignments completed for each.
+This project contains practice assignments for learning Java fundamentals, organized under the `com.myjava.basics` package. Below is a summary of the topics covered and the assignments completed for each.
 
 ## 1. Control Flow
 This section focuses on conditional statements (`if`, `else`, `switch`) and loops (`for`, `while`, `do-while`, `break`, `continue`).
