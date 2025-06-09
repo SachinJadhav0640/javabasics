@@ -57,7 +57,7 @@ This section focuses on creating class hierarchies using the `extends` keyword, 
 - **e. Animal, Mammal, and Cat**: Demonstrates multi-level inheritance with an `Animal` class, a `Mammal` class that inherits from it, and a `Cat` class that inherits from `Mammal`, overriding a method at each level.
 - **f. Employee and Manager**: Creates an `Employee` class with name and salary, and a `Manager` class that inherits from it, adding a department field and overriding a method to include a bonus in the pay.
 
-## 5. Polymorphism
+## 6. Polymorphism
 This section focuses on runtime polymorphism, method overriding, and using parent class references to invoke child-specific behavior.
 
 ### Assignments:
@@ -68,6 +68,16 @@ This section focuses on runtime polymorphism, method overriding, and using paren
 - **e. DrawingTest**: Creates a `Drawable` class with `Circle` and `Square` subclasses, using a method with a `Drawable` parameter to call the overridden `draw` method.
 - **f. ProductDiscountTest**: Creates a `Product` class with `Electronics` and `Clothing` subclasses, combining encapsulation and polymorphism to apply different discounts.
 
+## 7. Interfaces
+This section focuses on defining and implementing interfaces using the `implements` keyword, multiple interface implementation, and enforcing abstraction.
+
+### Assignments:
+- **a. FlyableTest**: Creates a `Flyable` interface with a fly method, implemented by `Bird` and `Airplane` classes, using interface references to call the method.
+- **b. ResizableTest**: Creates a `Resizable` interface with a resize method, implemented by `Image` and `Window` classes, using interface references.
+- **c. NotifiableTest**: Creates a `Notifiable` interface with a sendNotification method, implemented by `Email` and `SMS` classes, using an array of interface references.
+- **d. DrivableTest**: Creates a `Drivable` interface with a drive method, implemented by `Car` and `Truck` classes, using interface references.
+- **e. LoggableTest**: Creates `Loggable` and `Auditable` interfaces with log and audit methods, implemented by `Transaction` class, demonstrating multiple interface implementation.
+- **f. RentableTest**: Creates a `Rentable` interface with rent and returnItem methods, implemented by `Bike` and `Scooter` classes, combining encapsulation and interfaces.
 ---
 
 ### How to Run
