@@ -12,7 +12,7 @@ public enum DayOfWeek {
 class DayOfWeekTest {
     public static void main(String[] args) {
         // Select a day for testing
-        DayOfWeek day = DayOfWeek.TUESDAY;
+        DayOfWeek day = DayOfWeek.FRIDAY;
 
         // Switch statement to handle enum values
         switch (day) {

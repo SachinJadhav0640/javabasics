@@ -90,6 +90,16 @@ This section focuses on handling errors using `try`, `catch`, `finally`, `throw`
 - **e. AgeValidatorTest**: Creates a custom `InvalidAgeException` and throws it for invalid ages, using try-catch to handle it.
 - **f. LibraryCheckoutTest**: Creates a custom `BookNotAvailableException` and handles it when borrowing books, combining encapsulation and exception handling.
 
+## 9. Enums
+This section focuses on defining and using enums for fixed constants, adding fields and methods, and integrating with switch statements for type-safe code.
+
+### Assignments:
+- **a. DayOfWeekTest**: Creates a `DayOfWeek` enum with days of the week, using a switch statement to print messages based on the day.
+- **b. TrafficLightTest**: Creates a `TrafficLight` enum with colors and durations, using methods to get duration and next light.
+- **c. BookGenreTest**: Creates a `BookGenre` enum with genres and descriptions, using a method to get description and a loop to print all genres.
+- **d. OrderStatusTest**: Creates an `OrderStatus` enum with statuses and a method to check if delivery is allowed, handling status transitions.
+- **e. PlanetTest**: Creates a `Planet` enum with mass and radius, calculating surface gravity using a method and handling invalid planets with exceptions.
+- **f. LibraryItemStatusTest**: Creates a `LibraryItemStatus` enum with statuses, integrating encapsulation and exception handling for borrowing logic.
 
 ---
 
